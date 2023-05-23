@@ -2,11 +2,11 @@
 # Customer Segmentation System
 This project aims to develop a customer segmentation system using three different clustering algorithms: DBSCAN, K-Means, and Model-Based Clustering. The system is designed to help businesses identify distinct customer groups based on their purchasing behaviors, demographics, or any other relevant features. The project utilizes a dataset obtained from Kaggle and provides visualizations of the clustering results for each algorithm.
 # Dataset
-The dataset used in this project was obtained from Kaggle and is available as a CSV file named customer_segmentation.csv. You can download the dataset from [insert link to the dataset on Kaggle] and place it in the data directory within the project.
+The dataset used in this project was obtained from Kaggle and is available as a CSV file named customer_segmentation.csv. You can download the dataset from Kaggle and place it in the data directory within the project.
 # Methodology
 The customer segmentation system is developed using the following methodology:
 
-Data Collection: Obtain a relevant dataset from a reliable source. In this project, we used the "Customer Segmentation" dataset from Kaggle, which contains information about [provide a brief description of the dataset].
+Data Collection: Obtain a relevant dataset from a reliable source. In this project, we used the "Customer Segmentation" dataset from Kaggle.
 
 Data Preprocessing: Perform necessary preprocessing steps to clean and prepare the data for clustering. This may include handling missing values, removing duplicates, scaling features, and encoding categorical variables.
 
@@ -20,7 +20,7 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise): This algor
 
 K-Means: This centroid-based algorithm aims to partition the data into K clusters, where K is pre-defined. It assigns each data point to the nearest centroid, iteratively optimizing the cluster centers to minimize the within-cluster sum of squares.
 
-Model-Based Clustering: This algorithm assumes that the data is generated from a mixture of probability distributions. It estimates the parameters of these distributions to identify clusters. In this project, we used the [name of the model-based clustering algorithm] algorithm.
+Model-Based Clustering: This algorithm assumes that the data is generated from a mixture of probability distributions. It estimates the parameters of these distributions to identify clusters. In this project, we used the Gaussian Mixture Model Clustering algorithm.
 
 Model Evaluation: Evaluate the performance of each clustering algorithm. Common evaluation metrics for clustering include silhouette score, inertia, or visual inspection of the resulting clusters. Compare and analyze the results of each algorithm to determine their effectiveness in customer segmentation.
 
